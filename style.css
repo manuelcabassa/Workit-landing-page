@@ -16,6 +16,7 @@ body {
   max-width: 100%;
   font-family: "Manrope", sans-serif;
   background-color: #fbf8ff;
+  overflow-x: hidden;
 }
 
 .container {
@@ -92,7 +93,7 @@ nav {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 15%);
+  transform: translate(-40%, 30%);
 }
 .hero-image img {
   max-width: 100%;
@@ -109,8 +110,7 @@ nav {
 .bg-pattern-2 {
   position: absolute;
   top: 45%;
-  right: -35px;
-  width: 118px;
+  right: -45px;
 }
 
 .svg-curve {
@@ -132,11 +132,12 @@ nav {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: 40vh;
+  height: 30vh;
   width: 100%;
   position: relative;
   z-index: 0;
-  margin-top: 100px;
+  margin-top: 80px;
+  margin-bottom: 40px;
   padding: 0 80px;
   align-items: center;
   color: #5e4771;
@@ -180,10 +181,87 @@ nav {
 }
 
 .section-test {
-  background-color: #ffff;
-  height: 30vh;
-  max-width: 100vw;
-  color: #25083d;
-  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 40vh;
+  width: 100%;
   position: relative;
+  z-index: 0;
+  margin-top: 100px;
+  padding: 0 80px;
+  align-items: center;
+  background-color: #fff;
+  color: #5e4771;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+  max-width: 100%;
+}
+
+.image-test {
+  max-width: 30%;
+}
+.image-test-sect {
+  max-width: 100%;
+}
+.text-test {
+  background-color: #25083d;
+  padding: 40px;
+  max-height: 500px;
+  max-width: 50%;
+  color: #fff;
+  position: relative;
+  top: 15%;
+  right: 16%;
+  flex-wrap: wrap;
+}
+.title-test {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.paragraph-test {
+  color: #fbf8ff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 25px;
+  width: 550px;
+}
+
+.pattern1-test {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  width: 200px;
+  z-index: 3;
+}
+footer {
+  height: 15vh;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  text-align: center;
+  padding: 0 80px;
+  align-items: center;
+  color: #5e4771;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+  max-width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  z-index: -1;
+}
+.logo {
+  margin-bottom: 30px;
+}
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.image-icon {
+  margin-right: 15px;
 }
