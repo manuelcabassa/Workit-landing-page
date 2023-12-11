@@ -318,7 +318,7 @@ footer {
   }
 }
 
-@media all and (min-width: 500px) {
+@media all and (max-width: 500px) {
   .container {
     padding: 35px 80px;
     margin: 0 auto;
@@ -333,7 +333,7 @@ footer {
   }
 }
 
-@media all and (min-width: 375px) {
+@media all and (max-width: 375px) {
   .container {
     padding: 35px 80px;
     margin: 0 auto;
@@ -343,7 +343,16 @@ footer {
     /* transform: translate(-70%, -15%); */
     width: 75%;
   }
+  .bg-pattern-1 {
+    display: none;
+  }
+  .bg-pattern-2 {
+    display: none;
+  }
   .svg-curve2 {
     top: 134%;
+  }
+  .pattern1-test {
+    display: none;
   }
 }
